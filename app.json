@@ -1,0 +1,6 @@
+{
+  "name": "Demo Server",
+  "description": "demo server",
+  "success_url": "/",
+}
+
