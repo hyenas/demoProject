@@ -1,3 +1,4 @@
+import './form.less';
 import React from 'react';
 
 var CommentForm = React.createClass({

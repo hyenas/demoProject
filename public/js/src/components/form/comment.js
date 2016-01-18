@@ -1,3 +1,4 @@
+import './comment.less';
 import React from 'react';
 
 var Comment = React.createClass({

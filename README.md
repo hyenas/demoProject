@@ -22,3 +22,6 @@ You can change the port number by setting the `$PORT` environment variable befor
 ```sh
 PORT=3001 node server.js
 ```
+
+redux 中文文档
+https://github.com/camsong/redux-in-chinese

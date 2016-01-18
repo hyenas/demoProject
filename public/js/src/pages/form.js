@@ -44,7 +44,7 @@ var Forms = React.createClass({
   },
   componentDidMount: function() {
     this.loadCommentsFromServer();
-    setInterval(this.loadCommentsFromServer, this.props.pollInterval);
+    setInterval(this.loadCommentsFromServer, 5000);
   },
   render: function() {
     return (
