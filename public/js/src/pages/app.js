@@ -4,8 +4,6 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 import HelloHandler from './hello.js';
 import Forms from './form.js';
-import Timer from '../component/timer.js';
-import Menu from '../component/menu.js';
 
 let App = React.createClass({
   render() {
@@ -21,14 +19,5 @@ let App = React.createClass({
   }
 });
 
-let routes = (
-  <Route name="app" path="/" handler={App}>
-    <Route name="hello" path="/hello" handler={HelloHandler}/>
-    <Route name="form" path="/form" handler={Forms}/>
-  </Route>
-);
-
-Router.run(routes, function (Handler) {
-  React.render(<Handler />, document.body);
-});
+export default App;
 
